@@ -7,6 +7,10 @@ body {
     height: 73px;
     width: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+
+
 }
 
 .navbar_section1 {
@@ -17,9 +21,6 @@ body {
 .navbar_section2 {
     width: 55%;
     height: 70px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
 }
 
 .menu_icon {
@@ -54,31 +55,34 @@ body {
     height: 800px;
     width: 100%;
     position: absolute;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.667571252133666) 51%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0) 0%, rgba(0, 0, 0, 0.667571252133666) 51%);
     z-index: 1;
 }
-.main_banner_text_container{
+
+.main_banner_text_container {
     height: 300px;
     width: 40%;
     margin-top: 40px;
 
 }
-.main_banner_text_part{
+
+.main_banner_text_part {
     height: 65%;
     width: 100%;
 
 }
 
-.main_banner_heading{
+.main_banner_heading {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 45px;
     margin-left: 40px;
-     
+
 }
-.sub_para{
+
+.sub_para {
     color: white;
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
@@ -87,32 +91,42 @@ body {
 
 }
 
-.main_banner_text_button{
+.main_banner_text_button {
     height: 35%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.book_your_interest{
+.book_your_interest {
     height: 60px;
     width: 39%;
     background-color: white;
     margin-left: 30px;
+    border: none;
 }
-.pre_book_now{
+.book_your_interest:hover{
+    background-color: rgb(221, 212, 212);
+}
+
+.pre_book_now {
     margin-left: 6px;
     height: 58px;
     width: 39%;
     border: 1px solid white;
 }
-.book_your_interest_text{
+.pre_book_now:hover{
+    border-color:rgb(221, 212, 212) ;
+}
+
+.book_your_interest_text {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    margin-left: 20px;
+    margin-left: 6px;
 }
-.pre_book_now_text{
+
+.pre_book_now_text {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin-left: 36px;
@@ -121,149 +135,176 @@ body {
 }
 
 
-.car_section{
+.car_section {
     height: 200px;
     width: 100%;
     background-color: white;
     display: flex;
     flex-direction: row;
-    
-    
+
+
 }
-.car_image_container1{
+
+.car_image_container1 {
     width: 5%;
     height: 200px;
     margin: 2px 2px;
 
 }
-.backbutton{
+
+.backbutton {
     font-size: 25px;
     position: absolute;
     margin-top: 70px;
     margin-left: 40px;
 }
-.frontbutton{
+
+.frontbutton {
     font-size: 25px;
     position: absolute;
     margin-top: 75px;
     padding-left: 15px;
 }
-.car_image_container{
+
+.car_image_container {
     width: 20%;
     height: 200px;
     margin: 2px 2px;
     margin-left: 9px;
 
 }
-#image1{
+
+#image1 {
     background-image: url(../img/1.jpg);
 }
-#image2{
+
+#image2 {
     background-image: url(../img/2.webp);
 }
-#image3{
+
+#image3 {
     background-image: url(../img/3.webp);
 }
-#image4{
+
+#image4 {
     background-image: url(../img/4.jpg);
 }
-#image5{
+
+#image5 {
     background-image: url(../img/5.webp);
 }
-.car_image{
- 
+
+.car_image {
+
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 50px;
     height: 100%;
     width: 100%;
 }
-.vrleft{
-    
+
+.vrleft {
+
     border-left: 1px solid rgb(4, 5, 4);
     height: 100px;
     margin-top: 39px;
     margin-left: 70px;
 
 }
-.vrright{
+
+.vrright {
 
     border-left: 1px solid rgb(1, 1, 1);
     height: 100px;
     margin-top: 39px;
-    margin-right: 70    px; 
+    margin-right: 70 px;
 }
-.Models{
-    position:absolute;
+
+.Models {
+    position: absolute;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin-left: 80px;
 }
 
-.section_banner{
+.section_banner {
     height: 1500px;
     width: 100%;
     background-color: aquamarine;
     background-image: url(../img/section-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
-.inner_container{
+
+.inner_container {
     height: 300px;
     width: 700px;
-        background-color: white;
+    background-color: white;
     margin-top: 350px;
     margin-left: 50px;
     position: absolute;
 }
-.inner_container_text{
+
+.inner_container_text {
     width: 100%;
     height: 70%;
 }
 
-.home_of_electrics{
+.home_of_electrics {
     position: absolute;
 }
-.h1head{
-font-size: 36px;
-font-family: Arial, Helvetica, sans-serif;
-margin-left: 50px;
-margin-top: 40px;
+
+.h1head {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 40px;
 }
-.phead{
+
+.phead {
     font-size: 18px;
-font-family: Arial, Helvetica, sans-serif;
-margin-left: 50px;
-margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 90px;
 
 }
-.inner_container_button{
+
+.inner_container_button {
     width: 100%;
     height: 30%;
     display: flex;
     flex-direction: row;
 }
-.e_hub{
+
+.e_hub {
     height: 60px;
     width: 22%;
     margin-left: 30px;
     background-color: black;
+    border: none;
 }
-.futurals{
+.e_hub:hover{
+    background-color: #413e3e;
+}
+
+.futurals {
     margin-left: 6px;
     height: 58px;
     width: 31%;
     border: 1px solid rgb(18, 17, 17);
 }
-.e-tron{
+
+.e-tron {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    margin-left: 30px;
+    margin-left: 5px;
     color: white;
 }
-.FuturelsAnAttitude{
+
+
+.FuturelsAnAttitude {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin-left: 46px;
@@ -271,21 +312,24 @@ margin-top: 90px;
 
 }
 
-.section_banner1{
+.section_banner1 {
     height: 1100px;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
-.mobail{
+
+.mobail {
     width: 50%;
     height: 100%;
 }
-.mobailbutton{
+
+.mobailbutton {
     width: 50%;
     height: 100%;
 }
-.mobail_image{
+
+.mobail_image {
     height: 60%;
     width: 90%;
     margin-top: 200px;
@@ -293,71 +337,77 @@ margin-top: 90px;
     background-image: url(../img/mobail.webp);
     background-size: cover;
 }
-.mobailtext{
+
+.mobailtext {
     margin-top: 360px;
     height: 400px;
     width: 70%;
 }
 
-.mobail_textpart{
+.mobail_textpart {
     height: 60%;
     width: 100%;
 }
 
 
-.Augmented{
+.Augmented {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 38px;
     position: absolute;
     margin-top: 150px;
     margin-left: 80px;
-    
+
 }
 
-.mobail_button_part{
+.mobail_button_part {
     height: 40%;
     width: 100%;
     display: flex;
     flex-direction: row;
 }
 
-.etron{
+.etron {
     height: 60px;
     width: 27%;
     background-color: rgb(15, 14, 14);
     margin-left: 80px;
 }
-.sportedback{
+
+.sportedback {
     margin-left: 6px;
     height: 58px;
     width: 39%;
     border: 1px solid rgb(18, 17, 17);
 }
-.e-trons{
+
+.e-trons {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin-left: 20px;
     color: white;
 }
 
-.e-tronsportedback{
+.e-tronsportedback {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     margin-left: 20px;
 }
-.section_banner2{
+
+.section_banner2 {
     width: 100%;
     height: 800px;
     background-color: black;
     display: flex;
     flex-direction: row;
 }
-.section_banner2_part1{
+
+.section_banner2_part1 {
     width: 55%;
     height: 100%;
 }
-.section_banner2_part2{
+
+.section_banner2_part2 {
     width: 45%;
     height: 100%;
     background-image: url(../img/red_mobail.webp);
@@ -365,56 +415,64 @@ margin-top: 90px;
     background-repeat: no-repeat;
 
 }
-.section_banner_textpart{
+
+.section_banner_textpart {
     width: 100%;
     height: 346px;
     margin-top: 65%;
     margin-left: 40px;
 }
-.section_banner_textpart_header{
+
+.section_banner_textpart_header {
     font-size: 37px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     color: white;
 }
-.bold{
+
+.bold {
     font-size: 37px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     color: white;
     font-weight: bold;
 }
-.section_banner_textpart_header_button{
+
+.section_banner_textpart_header_button {
     display: flex;
     flex-direction: row;
     height: 118px;
     width: 100%;
 }
-.connect{
+
+.connect {
     height: 60px;
     width: 30%;
     border: 1px solid white;
     margin-left: 5px;
 }
-.shop{
+
+.shop {
     height: 60px;
     width: 20%;
     border: 1px solid white;
     margin-left: 5px;
 }
 
-.section_bannet3{
+.section_bannet3 {
     height: 400px;
     width: 100%;
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
-.section_bannet3_part1{
+
+.section_bannet3_part1 {
     width: 100%;
     height: 25%;
 }
-.section_bannet3_part2{
+
+.section_bannet3_part2 {
     width: 100%;
     height: 75%;
     display: flex;
@@ -422,95 +480,112 @@ flex-direction: column;
 
 }
 
-.waiting{
+.waiting {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 38px;
     position: absolute;
     margin-left: 80px;
 }
-.waiting_section1{
+
+.waiting_section1 {
     height: 100%;
     width: 30%;
     margin-left: 49px;
 }
-.waiting_section{
+
+.waiting_section {
     height: 100%;
     width: 30%;
     margin: 0px 2px 0px 9px;
-    
-    
+
+
 }
-.car_image_waiting_section{
+
+.car_image_waiting_section {
     height: 70%;
     width: 100%;
     background-size: cover;
 }
-.clickhear{
+
+.clickhear {
     height: 30%;
     width: 100%;
 }
-#car1{
-background-image: url(../img/car1.webp);
+
+#car1 {
+    background-image: url(../img/car1.webp);
 }
-#car2{
+
+#car2 {
     background-image: url(../img/car2.webp);
 }
-#car3{
+
+#car3 {
     background-image: url(../img/car3.webp);
 }
-.sub_head{
+
+.sub_head {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
-.click{
+
+.click {
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.section_banner4{
+
+.section_banner4 {
     width: 100%;
     height: 350px;
     display: flex;
     flex-direction: row;
 }
-.section_banner4_part1{
+
+.section_banner4_part1 {
     width: 50%;
     height: 100%;
     background-color: #e5e5e5;
 }
-.section_banner4_part2{
+
+.section_banner4_part2 {
     width: 50%;
     height: 100%;
     background-image: url(../img/map.webp);
     background-size: 100% 100%;
 }
-.locate{
+
+.locate {
     font-size: 37px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     font-weight: bold;
     margin-left: 50px;
 }
-.locate_sub{
+
+.locate_sub {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     margin-left: 50px;
 }
-.hr{
+
+.hr {
     margin: 0px 40px 0px 40px;
     background-color: black;
 }
-.postcode{
+
+.postcode {
     margin-left: 40px;
     font-size: 20px;
     font-weight: normal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(176, 161, 161);
 }
-.gps{
+
+.gps {
     height: 20px;
     width: 35px;
     position: inherit;
@@ -518,14 +593,16 @@ background-image: url(../img/car1.webp);
     margin-left: 390px;
     margin-top: 20px;
 }
-.search{
+
+.search {
     height: 60px;
     width: 230px;
     background-color: black;
     margin-left: 40px;
     margin-top: 10px;
 }
-.searchText{
+
+.searchText {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -533,125 +610,150 @@ background-image: url(../img/car1.webp);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-#sec4car1{
-background-image: url(../img/sec4car1.webp);
+
+#sec4car1 {
+    background-image: url(../img/sec4car1.webp);
 }
-#sec4car2{
+
+#sec4car2 {
     background-image: url(../img/sec4car2.webp);
 }
-#sec4car3{
+
+#sec4car3 {
     background-image: url(../img/sec4car3.webp);
 }
-.clicksec4{
+
+.clicksec4 {
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.sub_headsec4{
+
+.sub_headsec4 {
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
-.section_bannet4{
+
+.section_bannet4 {
     height: 400px;
     width: 100%;
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
-.whitespace{
+
+.whitespace {
     height: 50px;
     width: 100%;
 }
-.footer{
+
+.footer {
     height: 600px;
     width: 100%;
     background-color: black;
     display: flex;
     flex-direction: row;
 }
-.footer_part1{
+
+.footer_part1 {
     height: 600px;
     width: 33.33%;
 }
-.footer_part1_1{
+
+.footer_part1_1 {
     height: 50%;
     width: 100%;
 }
-.footer_part1_2{
+
+.footer_part1_2 {
     height: 50%;
     width: 100%;
 }
-.footer_part3_1{
+
+.footer_part3_1 {
     height: 90%;
     width: 100%;
 }
-.footer_part3_2{
+
+.footer_part3_2 {
     height: 10%;
     width: 100%;
     position: absolute;
     display: flex;
     flex-direction: row;
 }
-.footer_part2{
-    height: 600px;
-    width: 33.33%;
-}
-.footer_part3{
+
+.footer_part2 {
     height: 600px;
     width: 33.33%;
 }
 
-.white{
+.footer_part3 {
+    height: 600px;
+    width: 33.33%;
+}
+
+.white {
     position: absolute;
-color: white;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-weight: normal;
-font-size: 20px;
-margin-top: 60px;
-margin-left: 70px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 70px;
 
 }
 
-.white_sub ,.white_sub1 ,.white_sub2 ,.white_sub3 ,.white_sub4 ,.white_sub5{
+.white_sub,
+.white_sub1,
+.white_sub2,
+.white_sub3,
+.white_sub4,
+.white_sub5 {
     position: absolute;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 }
-.white_sub{
+
+.white_sub {
     font-size: 15px;
     margin-top: 100px;
     margin-left: 70px;
 }
-.white_sub1{
+
+.white_sub1 {
 
     font-size: 15px;
     margin-top: 130px;
     margin-left: 70px;
 }
-.white_sub2{
+
+.white_sub2 {
     font-size: 15px;
     margin-top: 160px;
     margin-left: 70px;
 }
-.white_sub3{
+
+.white_sub3 {
     font-size: 15px;
     margin-top: 190px;
     margin-left: 70px;
 }
-.white_sub4{
+
+.white_sub4 {
     font-size: 15px;
     margin-top: 220px;
     margin-left: 70px;
 }
-.white_sub5{
+
+.white_sub5 {
     font-size: 15px;
     margin-top: 250px;
     margin-left: 70px;
 }
 
-.footer_logo{
+.footer_logo {
     height: 30px;
     width: 30px;
 }
-
